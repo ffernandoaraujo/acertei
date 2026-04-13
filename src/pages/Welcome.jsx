@@ -26,7 +26,7 @@ export default function Welcome() {
               onClick={() => navigate('/game-guest')}>
               Jogar agora 🚀
             </motion.button>
-            <p className="welcome-option-hint">Sem cadastro. Treino rápido, sem salvar histórico ou entrar no ranking.</p>
+            <p className="welcome-option-hint">Sem cadastro, treino rápido ;)</p>
           </div>
 
           <div className="welcome-option">
@@ -34,7 +34,7 @@ export default function Welcome() {
               onClick={() => navigate('/auth?mode=login')}>
               Entrar ou criar conta
             </motion.button>
-            <p className="welcome-option-hint">Com conta, seu histórico fica salvo e você entra no ranking.</p>
+            <p className="welcome-option-hint">Com conta, com histórico. ♥</p>
           </div>
         </div>
       </motion.div>
