@@ -29,7 +29,7 @@ export default function GameGuest() {
       <motion.div className="guest-card"
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
         <button className="back-link" onClick={() => navigate('/')}>← Voltar</button>
-        <div className="auth-logo">⭐ Acertou</div>
+        <div className="auth-logo">⭐ Acertei</div>
 
         <div className="form-group" style={{ marginBottom: 24 }}>
           <label>Qual é o seu nome?</label>

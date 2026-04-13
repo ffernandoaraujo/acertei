@@ -39,7 +39,7 @@ export default function Auth() {
       <motion.div className="auth-card"
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
         <button className="back-link" onClick={() => navigate('/')}>← Voltar</button>
-        <div className="auth-logo">⭐ Acertou</div>
+        <div className="auth-logo">⭐ Acertei</div>
         <div className="auth-tabs">
           <button className={'auth-tab ' + (mode === 'login' ? 'active' : '')}
             onClick={() => { setMode('login'); setError('') }}>Entrar</button>

@@ -49,7 +49,7 @@ export default function Home() {
   if (showOnboarding) return (
     <div className="auth-page">
       <motion.div className="auth-card" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
-        <div className="auth-logo">⭐ Acertou</div>
+        <div className="auth-logo">⭐ Acertei</div>
         <h2 style={{ textAlign: 'center', marginBottom: 8 }}>Qual é o nome do aluno?</h2>
         <p style={{ textAlign: 'center', color: '#888', marginBottom: 24 }}>Vamos personalizar a experiência!</p>
         <div className="form-group">
@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <div className="home-page">
       <header className="home-header">
-        <div className="home-logo">⭐ Acertou</div>
+        <div className="home-logo">⭐ Acertei</div>
         <div className="home-header-right">
           <span className="student-greeting">Olá, {studentName}!</span>
           <button className="btn-ghost" onClick={() => navigate('/history')}>Histórico</button>

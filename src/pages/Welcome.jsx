@@ -17,7 +17,7 @@ export default function Welcome() {
       <motion.div className="welcome-card"
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
         <div className="welcome-emoji">⭐</div>
-        <h1 className="app-title">Acertou</h1>
+        <h1 className="app-title">Acertei</h1>
         <p className="app-subtitle">O lugar certo para treinar tabuada e arrasar nos números!</p>
         <div className="welcome-actions">
           <motion.button className="btn btn-primary" whileTap={{ scale: 0.97 }}

@@ -50,7 +50,7 @@ export default function SharedResult() {
       <motion.div className="result-card"
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
 
-        <div className="shared-badge">Resultado compartilhado ⭐ Acertou</div>
+        <div className="shared-badge">Resultado compartilhado ⭐ Acertei</div>
 
         <motion.div className="result-avatar"
           initial={{ scale: 0 }} animate={{ scale: 1 }}
