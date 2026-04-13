@@ -192,3 +192,5 @@ body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--te
 .shared-cta { text-align: center; margin-top: 8px; }
 .shared-cta p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 4px; font-weight: 600; }
 .auth-hint { text-align: center; margin-top: 16px; font-size: 0.85rem; color: #888; }
+.welcome-option { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.welcome-option-hint { font-size: 0.78rem; color: #aaa; text-align: center; max-width: 280px; line-height: 1.4; }

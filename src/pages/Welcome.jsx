@@ -19,17 +19,24 @@ export default function Welcome() {
         <div className="welcome-emoji">⭐</div>
         <h1 className="app-title">Acertei</h1>
         <p className="app-subtitle">O lugar certo para treinar tabuada e arrasar nos números!</p>
+
         <div className="welcome-actions">
-          <motion.button className="btn btn-primary" whileTap={{ scale: 0.97 }}
-            onClick={() => navigate('/game-guest')}>
-            Jogar agora
-          </motion.button>
-          <motion.button className="btn btn-secondary" whileTap={{ scale: 0.97 }}
-            onClick={() => navigate('/auth?mode=login')}>
-            Entrar ou criar conta
-          </motion.button>
+          <div className="welcome-option">
+            <motion.button className="btn btn-primary" whileTap={{ scale: 0.97 }}
+              onClick={() => navigate('/game-guest')}>
+              Jogar agora 🚀
+            </motion.button>
+            <p className="welcome-option-hint">Sem cadastro. Treino rápido, sem salvar histórico ou entrar no ranking.</p>
+          </div>
+
+          <div className="welcome-option">
+            <motion.button className="btn btn-secondary" whileTap={{ scale: 0.97 }}
+              onClick={() => navigate('/auth?mode=login')}>
+              Entrar ou criar conta
+            </motion.button>
+            <p className="welcome-option-hint">Com conta, seu histórico fica salvo e você entra no ranking.</p>
+          </div>
         </div>
-        <p className="welcome-hint">Com conta, seu histórico fica salvo em qualquer dispositivo.</p>
       </motion.div>
     </div>
   )
