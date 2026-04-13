@@ -37,6 +37,8 @@ export default function Welcome() {
             <p className="welcome-option-hint">Com conta, com histórico. ♥</p>
           </div>
         </div>
+      
+        <p className="welcome-made-by">feito com ♡ por Heleninha</p>
       </motion.div>
     </div>
   )

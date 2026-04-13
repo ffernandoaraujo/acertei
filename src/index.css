@@ -194,3 +194,4 @@ body { font-family: 'Nunito', sans-serif; background: var(--bg); color: var(--te
 .auth-hint { text-align: center; margin-top: 16px; font-size: 0.85rem; color: #888; }
 .welcome-option { display: flex; flex-direction: column; align-items: center; gap: 6px; }
 .welcome-option-hint { font-size: 0.78rem; color: #aaa; text-align: center; max-width: 280px; line-height: 1.4; }
+.welcome-made-by { margin-top: 20px; font-size: 0.78rem; color: #ccc; text-align: center; font-style: italic; }
